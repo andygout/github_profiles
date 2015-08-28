@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/andygout/github_profiles.png)](https://travis-ci.org/andygout/github_profiles)
+
+
 GitHub Profiles
 =================
 
