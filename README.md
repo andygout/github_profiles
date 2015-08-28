@@ -11,6 +11,12 @@ Brief:
 Create a simple GitHub Profile app purely in JavaScript that grabs data from the GitHub API in order to display a specified users avatar, number of followers and number of repos.
 
 
+Live demo on Heroku
+-------
+
+[Github Profiles](https://mighty-forest-5249.herokuapp.com)
+
+
 Technologies used:
 -------
 
