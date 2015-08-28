@@ -1,11 +1,20 @@
 describe('GitHub profile finder', function() {
-  it('finds profiles', function() {
+
+  var searchBox = element(by.model('searchCtrl.searchTerm'))
+  var searchButton = element(by.className('btn'))
+
+  beforeEach(function() {
     browser.get('http://localhost:8080');
+  })
 
-    element(by.model('searchCtrl.searchTerm')).sendKeys('andygout');
-    element(by.className('btn')).click();
-
-    expect(element(by.binding('user.login')).getText()).
-    toEqual('andygout');
+  it('has a title', function() {
+    expect(browser.getTitle()).toEqual('Github user search');
   });
+
+  it('finds profiles', function() {
+    searchBox.sendKeys('andygout');
+    searchButton.click();
+    expect(element(by.binding('user.login')).getText()).toEqual('andygout');
+  });
+
 });
