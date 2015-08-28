@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Github user search</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css"/>
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
@@ -22,7 +23,7 @@
       <div>{{searchCtrl.searchTerm}}</div>
       <ul class="list-group" ng-repeat="user in searchCtrl.searchResult.items">
         <li>
-          <img ng-src="{{user.avatar_url}}&s=50">
+          <img ng-src="{{user.avatar_url}}&s=250">
           <a ng-href="{{user.html_url}}">{{user.login}}</a>
         </li>
       </ul>
