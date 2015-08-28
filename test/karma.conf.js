@@ -21,6 +21,7 @@ module.exports = function(config) {
       'bower_components/angular-mocks/angular-mocks.js',
       'accessToken.js',
       'js/*.js',
+      'test/*.js',
       'test/*.spec.js'
     ],
 
