@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/andygout/github_profiles.png)](https://travis-ci.org/andygout/github_profiles)
+[![Build Status](https://travis-ci.org/andygout/github_profiles.png)](https://travis-ci.org/andygout/github_profiles) [![Code Climate](https://codeclimate.com/github/andygout/github_profiles/badges/gpa.svg)](https://codeclimate.com/github/andygout/github_profiles)
 
 
 GitHub Profiles
