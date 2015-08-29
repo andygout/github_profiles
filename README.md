@@ -14,7 +14,7 @@ Create a simple GitHub Profile app purely in JavaScript that grabs data from the
 Live demo on Heroku
 -------
 
-[Github Profiles](https://mighty-forest-5249.herokuapp.com)
+[GitHub Profiles](https://mighty-forest-5249.herokuapp.com)
 
 
 Technologies used:
