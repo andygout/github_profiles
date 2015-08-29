@@ -8,7 +8,7 @@ describe('GitHub profile finder', function() {
   })
 
   it('has a title', function() {
-    expect(browser.getTitle()).toEqual('Github user search');
+    expect(browser.getTitle()).toEqual('GitHub Profile Search');
   });
 
   it('finds profiles', function() {
