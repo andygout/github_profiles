@@ -209,6 +209,7 @@ Deploying to [Heroku](https://devcenter.heroku.com/articles/git)
 Next steps:
 -------
 
+- Fix Karma tests: `js/searchFactory.js` fails tests (currently commented out) because `mockSearch.js` only expects one GET request, i.e. error in `gitUserSearchController.spec.js`: `Error: Unexpected request: GET https://api.github.com/users/andygout?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 - Consider how to keep accessToken referenced as Heroku [config variable](https://devcenter.heroku.com/articles/config-vars): [Stack Overflow: How to access local ENV variables in angular js](http://stackoverflow.com/questions/21115893/how-to-access-local-env-variables-in-angular-js) / [Frontliners-API](https://github.com/ptolemybarnes/frontliners-api) by [Ptolemy Barnes](https://github.com/ptolemybarnes) - suggests making API call directly from server rather than being sent back to client and made from there (where they will have access to it)
 
 
